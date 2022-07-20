@@ -1,0 +1,13 @@
+import random
+
+Assignments = ['Trace an exisitng artwork','Copy an art work from another artist ','Create an original piece']
+Assignment = random.choice(Assignments)
+
+Subjects = ['person','animal','fantasy creature','horror scene','romance scene','friendship scene','anime','comic','male drawing anatomy','female drawing antomy','fruit','woody texture','metallic texture','clothes','dessert','tree','body of water','fanart']
+Subject = random.choice(Subjects)
+
+Materials = ['crayon','acrylic','graphite pencil','pen','marker','watercolor','colored pencil']
+Material = random.choice(Materials)
+
+
+print( Assignment + " of a(n) " + Subject + " using " + Material+ "." )
